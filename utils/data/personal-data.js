@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Nguyễn Đăng Khoa",
-  profile: "developer-portfolio/profile.png",
+  profile: "./profile.png",
   designation: "Software Developer",
   descriptionMobile:
     "Mobile Development: • Expertise in Android with Java and Kotlin",
