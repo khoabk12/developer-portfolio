@@ -72,11 +72,29 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import android from '/public/svg/skills/android.svg';
+import koin from '/public/svg/skills/koin.png';
+import powerautomate from '/public/svg/skills/powerautomate.svg';
+import powerapps from '/public/svg/skills/powerapps.svg';
+import sharepoint from '/public/svg/skills/sharepoint.svg';
+import excelvba from '/public/svg/skills/excelvba.svg';
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'excel vba':
+      return excelvba;
+    case 'sharepoint':
+      return sharepoint;
+    case 'powerautomate':
+      return powerautomate;
+    case 'powerapps':
+      return powerapps;
+    case 'android':
+      return android;
+    case 'koin':
+      return koin;
     case 'gcp':
       return gcp;
     case 'html':
@@ -213,7 +231,7 @@ export const skillsImage = (skill) => {
       return ionic;
     case 'markdown':
       return markdown;
-    case 'microsoft office':
+    case 'office 365':
       return microsoftoffice;
     case 'picsart':
       return picsart;
