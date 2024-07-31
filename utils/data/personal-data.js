@@ -1,6 +1,7 @@
+import profileImage from '../../public/profile.png'
 export const personalData = {
   name: "Nguyễn Đăng Khoa",
-  profile: "./profile.png",
+  profile: profileImage,
   designation: "Software Developer",
   descriptionMobile:
     "Mobile Development: • Expertise in Android with Java and Kotlin",
