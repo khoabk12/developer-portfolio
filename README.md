@@ -1,155 +1,63 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
+# Nguyen Dang Khoa
 
----
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
-
----
-
-# Developer Portfolio
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+**Phone:** 076 630 6965 | **Email:** khoa.nguyen.bk18@gmail.com  
+**LinkedIn:** [linkedin.com/in/khoanguyenbk18](https://www.linkedin.com/in/khoanguyenbk18)
 
 ---
 
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
-
----
-
-## Table of Contents :scroll:
-
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Packages Used](#packages-used-package)
+## Skills
+- **Android Development:** Kotlin, Android SDK, Jetpack Library
+- **RPA:** VBA, Power Automate, Selenium
+- **Microsoft Power Platform:** PowerApps, SharePoint, Power Automate
+- **English Proficiency:** Intermediate (Communication, Documentation, Practical Usage)
+- **Database & Backend:** Firebase, SQLite, MongoDB, Node.js
 
 ---
 
-# Sections :bookmark:
+## Work Experience and Projects
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+**Officience** (2022 - Present)  
+*Android Developer, Power Platform Developer*
+- **EasyAnticip (Apr 2024 - Jul 2024):** Developed PowerApps features and integrated Microsoft tools for Orange's sales team.
+- **EasyFiab (Aug 2022 - Jul 2023):** Developed PowerApps features for ticket management system for Orange.
+- **FedEx Projects (Jun 2022 - Present):** Built portals and automated processes using PowerApps, Power Automate, SharePoint.
+  
+*Android Developer*
+- **IOGA:** Maintained and updated an AI-powered video platform using Kotlin, Android SDK.
+- **Internal Social App (Jun 2022 - 2023):** Developed an internal social app for a multinational energy company in France, facilitating employee communication and knowledge hub training.
 
----
+*RPA Developer*
+- **Quotation Tracking Tool (2022 - 2023):** Created an automation tool in Excel for Orange's analysts using VBA, Selenium, SQLite.
 
-# Installation :arrow_down:
 
-### You will need to download Git and Node to run this project
+**The Coffee House** (2020 - 2022)  
+*Android Developer*
+- Developed e-commerce and loyalty applications on the Android platform using Kotlin and Firebase.
+- **The Coffee House Mobile App (2020 - Present):** Created screens, interfaces, and business logic, working with backend to develop APIs.
 
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
+**TapLife Technology** (2017 - 2020)  
+*Android Developer*
+- Created event management applications using Kotlin, Firebase Realtime Database.
+- **TapLife (2018 - 2019):** Developed screens, interfaces, and business logic for user information, and collaborated on backend APIs.
+- **Tourdee (2019 - 2020):** Developed Android app for tourists and local guides using Kotlin, Firebase, and Node.js.
+- Built an e-commerce app for Mistmi Distribution Company using Kotlin and Firebase.
 
-#### Make sure you have the latest version of both Git and Node on your computer.
+**Own Projects** (2020 - Present)  
+*Android Developer*  
+- Developed various apps and games to sharpen skills using Kotlin, Kotlin Multiplatform, and Firebase.
 
-```
-node --version
-git --version
-```
-
-## <br />
-
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
-
-### Install packages from the root directory
-
-```bash
-npm install
-# or
-yarn install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Google Play Store:** [My Apps](https://play.google.com/store/apps/dev?id=4792068130461801877)
 
 ---
 
-# Usage :joystick:
+## Education
 
-Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
-
-Eg:
-
-```env
-NEXT_PUBLIC_EMAILJS_SERVICE_ID =
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
-NEXT_PUBLIC_GTM = # For site analytics
-NEXT_PUBLIC_APP_URL = "http://127.0.0.1:3000"
-NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
-NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
-```
-
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
-
-Eg:
-
-```javascript
-export const personalData = {
-  name: "Nguyễn Đăng Khoa",
-  profile: "./profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is Nguyễn Đăng Khoa....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
-```
-
-`devUsername` Used for fetching blog from `dev.to`.
+**Bach Khoa University** (2012 - 2017)  
+*B.Sc. in Geology and Petroleum*  
+**GPA:** 7.8/10
 
 ---
 
----
-
-# Packages Used :package:
-
-| Used Package List  |
-| :----------------: |
-|        next        |
-|  @emailjs/browser  |
-|    lottie-react    |
-| react-fast-marquee |
-|    react-icons     |
-|   react-toastify   |
-|        sass        |
-|    tailwindcss     |
-
----
+## Certifications
+- **Android Developer Certificate** (2017)
+- **TOEIC Score:** 770 (2017)
