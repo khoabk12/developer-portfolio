@@ -4,8 +4,9 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { SiObsidian } from "react-icons/si";
 import { MdDownload } from "react-icons/md";
-import heroImage from '../../../../public/hero.svg'
+import heroImage from "../../../../public/hero.svg";
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
@@ -21,27 +22,32 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
-            This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
+            This is <span className=" text-pink-500">{personalData.name}</span>
             {` , I'm a Professional `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
-            .
+            <span className=" text-[#16f2b3]">{personalData.designation}</span>.
           </h1>
 
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
-              target='_blank'
+              target="_blank"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
               href={personalData.linkedIn}
-              target='_blank'
+              target="_blank"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
+            </Link>
+            <Link
+              href={personalData.obsidian}
+              target="_blank"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <SiObsidian size={30} />
             </Link>
             {/* <Link
               href={personalData.facebook}
@@ -74,13 +80,16 @@ function HeroSection() {
               </button>
             </Link> */}
 
-            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
+            <Link
+              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+              role="button"
+              target="_blank"
+              href={personalData.resume}
             >
               <span>Get Resume</span>
               <MdDownload size={16} />
             </Link>
           </div>
-
         </div>
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
@@ -100,7 +109,7 @@ function HeroSection() {
                 <span className="mr-2 text-pink-500">const</span>
                 <span className="mr-2 text-white">developer</span>
                 <span className="mr-2 text-pink-500">=</span>
-                <span className="text-gray-400">{'{'}</span>
+                <span className="text-gray-400">{"{"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
@@ -111,7 +120,9 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">email:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">khoa.nguyen.bk18@gmail.com</span>
+                <span className="text-amber-300">
+                  khoa.nguyen.bk18@gmail.com
+                </span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -137,27 +148,37 @@ function HeroSection() {
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">
+                  hardWorker:
+                </span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">
+                  quickLearner:
+                </span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">
+                  problemSolver:
+                </span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-green-400">
+                  hireable:
+                </span>
                 <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{'() {'}</span>
+                <span className="text-gray-400">{"() {"}</span>
               </div>
               <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
+                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">
+                  return
+                </span>
                 <span className="text-gray-400">{`(`}</span>
               </div>
               <div>
@@ -176,15 +197,21 @@ function HeroSection() {
                 <span className="mr-2 text-amber-300">&gt;=</span>
                 <span className="text-orange-400">5</span>
               </div>
-              <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
-              <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
-              <div><span className="text-gray-400">{`};`}</span></div>
+              <div>
+                <span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span>
+              </div>
+              <div>
+                <span className="text-gray-400">{`};`}</span>
+              </div>
             </code>
           </div>
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default HeroSection;

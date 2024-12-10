@@ -15,6 +15,7 @@ export const personalData = {
   github: "https://github.com/khoabk12",
   facebook: "",
   linkedIn: "https://www.linkedin.com/in/khoanguyenbk18/",
+  obsidian: "https://khoabk12.github.io/quartz/",
   twitter: "",
   stackOverflow: "",
   leetcode: "",
