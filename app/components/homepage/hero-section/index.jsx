@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { SiObsidian } from "react-icons/si";
+import { SiObsidian, SiGoogleplay } from "react-icons/si";
 import { MdDownload } from "react-icons/md";
 import heroImage from "../../../../public/hero.svg";
 function HeroSection() {
@@ -49,13 +49,13 @@ function HeroSection() {
             >
               <SiObsidian size={30} />
             </Link>
-            {/* <Link
-              href={personalData.facebook}
-              target='_blank'
+            <Link
+              href={personalData.googlePlay}
+              target="_blank"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <FaFacebook size={30} />
-            </Link> */}
+              <SiGoogleplay size={30} />
+            </Link>
             {/* <Link
               href={personalData.leetcode}
               target='_blank'
