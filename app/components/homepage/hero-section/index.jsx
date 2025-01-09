@@ -141,10 +141,6 @@ function HeroSection() {
                 <span className="text-amber-300">SharePoint</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Excel VBA</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">RoomDB</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

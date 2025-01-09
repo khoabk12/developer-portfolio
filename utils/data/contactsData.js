@@ -4,7 +4,7 @@ export const contactsData = {
     address: 'Ho Chi Minh City, Vietnam',
     github: 'https://github.com/khoabk12',
     facebook: '',
-    linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
+    linkedIn: 'https://www.linkedin.com/in/khoanguyenbk18/',
     twitter: '',
     stackOverflow: '',
     devUsername: ""
